@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo-da-Velha</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Bem vindo ao Jogo-da-Velha</h1>
+    <div>
+      <div id="numero1" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero2" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero3" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+    </div>
+    <div>
+      <div id="numero4" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero5" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero6" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+    </div>
+    <div>
+      <div id="numero7" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero8" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+      <div id="numero9" class="quadrado" onclick="EscolherQuadrado(this.id)">
+        -
+      </div>
+    </div>
+    <div class="jogador">
+      <label> Jogador </label>
+      <label id="jogador-selecionado"> </label>
+    </div>
+    <div class="vencedor">
+      <label> Vencedor </label>
+      <label id="vencedor-selecionado"> </label>
+    </div>
+    <div>
+      <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+  </body>
+  <script src="acoes.js"></script>
+</html>

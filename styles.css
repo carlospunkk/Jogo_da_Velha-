@@ -1,0 +1,44 @@
+h1 {
+  color: #eee;
+}
+body {
+  text-align: center;
+  background-color: black;
+}
+.quadrado {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+  border-radius: 5px;
+}
+.jogador {
+  color: aqua;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.vencedor {
+  color: aqua;
+  margin-top: 10px;
+  font-size: 30px;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #eee;
+  background: #836fff;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+
+
